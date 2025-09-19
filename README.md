@@ -5,25 +5,13 @@
 ## Project Workflow (DAG Structure)
 Project Workflow (DAG Structure)
 
-                ┌────────────────────┐
-                │   UserInputNode    │
-                └────────┬───────────┘
-                         │
-        ┌────────────────┴────────────────┐
-        │                                 │
-┌───────▼───────┐               ┌─────────▼─────────┐
-│ AgentA        │               │ AgentB            │
-│ (Scientist)   │               │ (Philosopher)     │
-└───────┬───────┘               └─────────┬─────────┘
-        │                                 │
-        ▼                                 ▼
-┌────────────────────┐        ┌────────────────────┐
-│    MemoryNode      │◀──────┘                    │
-└────────┬───────────┘                             │
-         ▼                                         ▼
-    ┌────────────┐                          ┌──────────── ┐
-    │ JudgeNode  │                          │ Final Output│
-    └────────────┘                          └──────────── ┘
+ UserInputNode ───▶ AgentA (Scientist) ───▶
+                  │                        │
+                  │                        ▼
+                  │                  MemoryNode ───▶ JudgeNode
+                  │                        ▲
+ UserInputNode ───▶ AgentB (Philosopher) ──┘
+
 
 # Nodes roles:
 - UserInputNode - Takes Topic from user.
