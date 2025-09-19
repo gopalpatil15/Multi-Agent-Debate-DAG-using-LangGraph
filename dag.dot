@@ -1,0 +1,19 @@
+digraph DebateDAG {
+  rankdir=LR;
+  UserInputNode [shape=box];
+  AgentA [shape=ellipse,label="AgentA
+(Scientist)"];
+  AgentB [shape=ellipse,label="AgentB
+(Philosopher)"];
+  MemoryNode [shape=note];
+  JudgeNode [shape=diamond];
+  UserInputNode -> AgentA;
+  UserInputNode -> AgentB;
+  AgentA -> MemoryNode;
+  AgentB -> MemoryNode;
+  MemoryNode -> AgentA;
+  MemoryNode -> AgentB;
+  AgentA -> JudgeNode;
+  AgentB -> JudgeNode;
+  MemoryNode -> JudgeNode;
+}

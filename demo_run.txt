@@ -1,0 +1,12 @@
+Enter topic for debate: Should AI be regulated like medicine?
+Starting debate between Scientist and Philosopher...
+[Round 1] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? — building on earlier points like '...' (round 1).
+[Round 2] Philosopher: As a Philosopher, I argue that Should AI be regulated like medicine? — building on earlier points like '...' (round 2).
+...
+[Judge] Summary of debate:
+[1] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? — building on earlier points like '...' (round 1).
+...
+[Judge] Winner: Scientist
+Reason: Scientist scored X vs Philosopher Y — stronger risk/safety grounding.
+
+Full logs are written to debate.log

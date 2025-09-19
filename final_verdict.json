@@ -1,0 +1,9 @@
+{
+  "summary": "[1] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? (round 1).\n[2] Philosopher: As a Philosopher, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Scientist, I argue that Should AI be regulated like\n[3] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Philosopher, I argue that Should AI be regulated like\n[4] Philosopher: As a Philosopher, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Scientist, I argue that Should AI be regulated like\n[5] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Philosopher, I argue that Should AI be regulated like\n[6] Philosopher: As a Philosopher, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Scientist, I argue that Should AI be regulated like\n[7] Scientist: As a Scientist, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Philosopher, I argue that Should AI be regulated like\n[8] Philosopher: As a Philosopher, I argue that Should AI be regulated like medicine? — building on earlier points like 'As a Scientist, I argue that Should AI be regulated like",
+  "winner": "Scientist",
+  "reason": "Scientist scored 13.0 vs Philosopher 6.0 — stronger risk/safety grounding.",
+  "scores": {
+    "Scientist": 13.0,
+    "Philosopher": 6.0
+  }
+}
