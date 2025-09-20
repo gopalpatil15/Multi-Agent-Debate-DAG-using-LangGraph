@@ -4,14 +4,14 @@
 
 ## Project Workflow (DAG Structure)
 Project Workflow (DAG Structure)
-
+```text
  UserInputNode ───▶ AgentA (Scientist) ───▶
                   │                        │
                   │                        ▼
                   │                  MemoryNode ───▶ JudgeNode
                   │                        ▲
  UserInputNode ───▶ AgentB (Philosopher) ──┘
-
+``` 
 
 # Nodes roles:
 - UserInputNode - Takes Topic from user.
@@ -67,3 +67,7 @@ dot -Tpng dag.dot -o dag.png
 
 ## Notes about LangGraph
 This implementation includes a small adapter that will use a `langgraph` library (if available) to build a DAG. If `langgraph` is not present, the bundled lightweight runner is used — behavior, logging, and outputs are identical from the caller's perspective.
+
+## Project Resources
+
+- [View the Project Explanation on Google Drive](https://drive.google.com/file/d/18T2j3bFfGoxGAGGs5fCIwzE68wIi8QvA/view?usp=sharing)
