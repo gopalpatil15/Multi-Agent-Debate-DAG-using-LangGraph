@@ -70,4 +70,4 @@ This implementation includes a small adapter that will use a `langgraph` library
 
 ## Project Resources
 
-- [View the Project Explanation on Google Drive](https://drive.google.com/file/d/18T2j3bFfGoxGAGGs5fCIwzE68wIi8QvA/view?usp=sharing)
+- [View the Project Explanation on Google Drive](https://drive.google.com/file/d/18T2j3bFfGoxGAGGs5fCIwzE68wIiQvA/view?usp=sharing)
